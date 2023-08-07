@@ -42,7 +42,7 @@ class Migration(migrations.Migration):
                 ('preparation_steps_is_html', models.BooleanField()),
                 ('created_at', models.DateTimeField(auto_now_add=True)),
                 ('updated_at', models.DateTimeField(auto_now=True)),
-                ('is_publushed', models.BooleanField(default=False)),
+                ('is_published', models.BooleanField(default=False)),
                 ('cover', models.ImageField(
                     upload_to='recipes/covers/%Y/%m/%d/'
                 )),
